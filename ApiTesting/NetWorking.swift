@@ -7,10 +7,20 @@
 
 import Foundation
 
+ protocol ApiCall{
+    
+    func fetchUsers(completion: @escaping (Result<[User], Error>) -> Void)
+     
+     func apiAlert()
+}
+extension ApiCall{
+    func apiAlert(){
+    }
+}
 
-class APIClient {
+class APIClient:ApiCall {
 
-    static let shared = APIClient()
+   // static let shared = APIClient()
     
     let baseURL = URL(string: "https://jsonplaceholder.typicode.com")!
 

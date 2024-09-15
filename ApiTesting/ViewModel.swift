@@ -11,16 +11,21 @@ class ViewModel:ObservableObject{
     
     @Published var users = [User]()
     
-    
+    var apiCallRef: ApiCall
+    init(apiCallRef:ApiCall){
+        self.apiCallRef = apiCallRef
+    }
     func getUsers(){
-        
-        APIClient.shared.fetchUsers { responce in
-            
+
+        apiCallRef.fetchUsers { responce in
             switch responce{
                 
             case .success(let success):
-                
-                self.users = success
+                DispatchQueue.main.async {
+                    self.users = success
+                    print(self.users)
+
+                }
             case .failure(let failure):
                 
                 print(failure.localizedDescription)

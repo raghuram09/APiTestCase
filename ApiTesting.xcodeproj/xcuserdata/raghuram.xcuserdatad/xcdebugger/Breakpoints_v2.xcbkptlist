@@ -14,10 +14,58 @@
             filePath = "ApiTestingTests/ApiTestingTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "tearDownWithError()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31E09DF0-C9A5-418C-B48E-6B9EB59B224F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ApiTesting/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getUsers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "31E09DF0-C9A5-418C-B48E-6B9EB59B224F - 3e2ff7c04963b003"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;ApiTesting.User&gt;, Swift.Error&gt;) -&gt; () in ApiTesting.ViewModel.getUsers() -&gt; ()"
+                  moduleName = "ApiTesting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raghuram/APiTestCase/ApiTesting/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "31E09DF0-C9A5-418C-B48E-6B9EB59B224F - 3e2ff7c04963b003"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;ApiTesting.User&gt;, Swift.Error&gt;) -&gt; () in ApiTesting.ViewModel.getUsers() -&gt; ()"
+                  moduleName = "ApiTesting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raghuram/APiTestCase/ApiTesting/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
