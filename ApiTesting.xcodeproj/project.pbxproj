@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8987C7D92C9662B600416CAB /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8987C7D82C9662B600416CAB /* RowView.swift */; };
 		89D6F2DB2C5FF4760039E174 /* ApiTestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D6F2DA2C5FF4760039E174 /* ApiTestingApp.swift */; };
 		89D6F2DD2C5FF4760039E174 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D6F2DC2C5FF4760039E174 /* ContentView.swift */; };
 		89D6F2DF2C5FF4780039E174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D6F2DE2C5FF4780039E174 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8987C7D82C9662B600416CAB /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		89D6F2D72C5FF4760039E174 /* ApiTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D6F2DA2C5FF4760039E174 /* ApiTestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTestingApp.swift; sourceTree = "<group>"; };
 		89D6F2DC2C5FF4760039E174 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				89D6F2DA2C5FF4760039E174 /* ApiTestingApp.swift */,
 				89D6F2DC2C5FF4760039E174 /* ContentView.swift */,
+				8987C7D82C9662B600416CAB /* RowView.swift */,
 				89D6F2EA2C5FF4C50039E174 /* ViewModel.swift */,
 				89D6F2E82C5FF4960039E174 /* NetWorking.swift */,
 				89D6F2DE2C5FF4780039E174 /* Assets.xcassets */,
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89D6F2DD2C5FF4760039E174 /* ContentView.swift in Sources */,
+				8987C7D92C9662B600416CAB /* RowView.swift in Sources */,
 				89D6F2DB2C5FF4760039E174 /* ApiTestingApp.swift in Sources */,
 				89D6F2EB2C5FF4C50039E174 /* ViewModel.swift in Sources */,
 				89D6F2E92C5FF4960039E174 /* NetWorking.swift in Sources */,

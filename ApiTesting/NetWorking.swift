@@ -41,7 +41,7 @@ class APIClient {
     }
 }
 
-struct User: Decodable {
+struct User: Codable,Hashable {
     let id: Int
     let name: String
     let username: String
